@@ -12,10 +12,10 @@ class InMemoryBookRepository implements BookRepository {
   static final List<LivroLog> _books = [
     LivroLog(
       id: 'b1',
-      titulo: 'Dom Casmurro',
-      autor: 'Machado de Assis',
-      ano: 1899,
-      genero: 'Romance',
+      titulo: 'O Senhor Dos Aneis: A Sociedade Do Anel',
+      autor: 'J.R.R. Tolkien',
+      ano: 1954,
+      genero: 'Fantasia Medieval',
       sinopse:
       'Bentinho narra sua infancia, o amor por Capitu e a desconfianca que consome sua vida adulta.',
     ),
