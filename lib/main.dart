@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Bookish',
+        title: 'Bookshelf',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light(),
         home: const LoginPage(),
