@@ -18,7 +18,7 @@ abstract class AuthRepository {
 
 class InMemoryAuthRepository implements AuthRepository {
   static final List<Map<String, String>> _credentials = [
-    {'email': 'leitor@teste.com', 'password': '123456', 'userId': 'u1'},
+    {'email': 'willy@teste.com', 'password': '123456', 'userId': 'u1'},
   ];
 
   static final List<AppUser> _users = [
@@ -26,7 +26,7 @@ class InMemoryAuthRepository implements AuthRepository {
       id: 'u1',
       nome: 'Usuario Teste',
       username: 'leitor_teste',
-      email: 'leitor@teste.com',
+      email: 'willy@teste.com',
       bio: 'Apaixonado(a) por livros.',
     ),
   ];
