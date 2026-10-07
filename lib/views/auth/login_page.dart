@@ -56,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                   const Icon(Icons.menu_book, size: 72),
                   const SizedBox(height: 8),
                   Text(
-                    'Bookshelf',
+                    'Bookshels',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.headlineMedium,
                   ),
