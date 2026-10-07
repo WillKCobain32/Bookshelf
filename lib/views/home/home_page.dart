@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     final user = context.watch<AuthViewModel>().currentUser;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Bookish')),
+      appBar: AppBar(title: const Text('Bookshelf')),
       body: RefreshIndicator(
         onRefresh: () => context.read<HomeViewModel>().load(user?.id ?? ''),
         child: homeVM.isLoading
